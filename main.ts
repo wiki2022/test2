@@ -17,3 +17,5 @@ let mySprite = sprites.create(img`
     . . . c c c c c c c c b b . . . 
     `, SpriteKind.Player)
 mySprite.bottom = 120
+controller.moveSprite(mySprite, 100, 100)
+info.setLife(3)
